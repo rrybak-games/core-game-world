@@ -72,7 +72,7 @@ class World {
         // console.log("map", this.map)
     }
     moveObjects() {
-        this.game.objects.forEach(gObj => {
+        this.objects.forEach(gObj => {
             // console.log(6 - this.random(12))
             gObj.coord.x = gObj.coord.x + 1 - this.random(3)
             gObj.coord.y = gObj.coord.y + 1 - this.random(3)
