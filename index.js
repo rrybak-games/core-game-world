@@ -2,7 +2,7 @@ import {
     Point,
     World,
     WorldObject 
-} from 'classes/World';
+} from './classes/World';
 
 export {  
     Point,
