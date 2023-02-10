@@ -82,7 +82,7 @@ class World {
         }
         
     }
-    random() {
+    random(x) {
         return Math.floor(Math.random() * x)
     }
     start() {
