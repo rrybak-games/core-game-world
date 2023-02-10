@@ -1,0 +1,26 @@
+{
+  "name": "@rrybak-games/core-game-world",
+  "version": "1.0.0",
+  "description": "core game world. no gui",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rrybak-games/core-game-world.git"
+  },
+  "keywords": [
+    "engine",
+    "core",
+    "game",
+    "world",
+    "javascript"
+  ],
+  "author": "Ruslan Rybak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rrybak-games/core-game-world/issues"
+  },
+  "homepage": "https://github.com/rrybak-games/core-game-world#readme"
+}
