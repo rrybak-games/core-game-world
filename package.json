@@ -2,7 +2,8 @@
   "name": "@rrybak-games/core-game-world",
   "version": "1.0.0",
   "description": "core game world. no gui",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "build": "tsc",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
@@ -26,6 +27,7 @@
     "url": "https://github.com/rrybak-games/core-game-world/issues"
   },
   "homepage": "https://github.com/rrybak-games/core-game-world#readme",
+  "files": ["lib/**/*"],
   "devDependencies": {
     "prettier": "^2.8.4",
     "tslint": "^6.1.3",
