@@ -24,6 +24,18 @@ class World {
     this.dy = dy;
     // this.constructMap(dx, dy)
   }
+  objectIdExist(id: number) {
+    if (!this.objects[id]) {
+      return false;
+    }
+    return true;
+  }
+  getObject(id: number) {
+    if (this.objectIdExist(id)) {
+      return this.objects[id];
+    }
+    return null;
+  }
   addObject(point: Point, type?: string) {
     const obj = new WorldObject({ coord: point, type });
     this.objects.push(obj);
