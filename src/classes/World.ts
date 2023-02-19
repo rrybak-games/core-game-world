@@ -27,6 +27,7 @@ class World {
   addObject(point: Point, type?: string) {
     const obj = new WorldObject({ coord: point, type });
     this.objects.push(obj);
+    return obj;
   }
   // printToConsole(dx: number, dy: number) {
   //     let consoleOutput = ""

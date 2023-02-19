@@ -9,5 +9,8 @@ export default class WorldObject {
     this.type = type;
     this.color = 'red';
   }
+  toString() {
+    return `${this.coord.x} , ${this.coord.x}`
+  }
 }
 export { Point, WorldObject };
