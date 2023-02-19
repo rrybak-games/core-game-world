@@ -36,9 +36,19 @@ class World {
     }
     return null;
   }
-  addObject(point: Point, type?: string) {
+  printObjects(selector: Function, printer: Function) {
+    this.objects.forEach(person => selector(person) ? printer(person) : null)
+  }
+  /**
+   * 
+   * @param {Point} point - Coordinates of an object 
+   * @param {string} type  - Type of an object???
+   * @returns {WorldObject} Created WorldObject
+   */
+  addObject(point: Point, type?: string): WorldObject {
     const obj = new WorldObject({ coord: point, type });
     this.objects.push(obj);
+    return obj;
   }
   // printToConsole(dx: number, dy: number) {
   //     let consoleOutput = ""
