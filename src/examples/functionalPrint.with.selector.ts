@@ -1,4 +1,4 @@
-import { World, WorldObject, Point } from "./src/classes/World";
+import { World, WorldObject, Point } from "../classes/World";
 console.log('new game')
 let game = new World();
 game.addObject({x: 10, y: 10});
